@@ -1,0 +1,59 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+CustomKeywords.'packages_001.login.goToLogin'()
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/My_Leaves'))
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Leave_Balance_Selection'))
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'))
+
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'), 'Mar 05, 2025')
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'))
+
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), 'Mar 05, 2025')
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'))
+
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), 'Personal Work')
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'))
+
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), 'Manjunath Batti')
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Apply Button'))
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Confirm Button'))
+
+WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
+
+WebUI.click(findTestObject('Emplyoee_Objects/All Leaves Section/Select the first Item'))
+
+WebUI.closeBrowser()
+
+WebUI.acceptAlert()
+
