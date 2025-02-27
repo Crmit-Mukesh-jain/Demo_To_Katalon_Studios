@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 CustomKeywords.'packages_001.login.goToLogin'()
 
+WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
+
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/My_Leaves'))
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Leave_Balance_Selection'))
@@ -43,6 +45,8 @@ WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'))
 
 WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), Inform)
 
+WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
+
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Apply Button'))
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Confirm Button'))
@@ -51,9 +55,13 @@ WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
 
+WebUI.takeFullPageScreenshot('')
+
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Emplyoee_Objects/All Leaves Section/Select the first Item'))
+
+WebUI.takeFullPageScreenshot('')
 
 WebUI.closeBrowser()
 
