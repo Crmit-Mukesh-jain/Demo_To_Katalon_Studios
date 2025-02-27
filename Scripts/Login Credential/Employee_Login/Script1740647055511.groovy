@@ -29,19 +29,19 @@ WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Leave_Balance_Selection'))
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'), 'Mar 05, 2025')
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'), Start_Date)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), 'Mar 05, 2025')
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), End_Date)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), 'Personal Work')
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), Reason)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), 'Manjunath Batti')
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), Inform)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Apply Button'))
 
@@ -51,9 +51,9 @@ WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Emplyoee_Objects/All Leaves Section/Select the first Item'))
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 
