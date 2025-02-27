@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 CustomKeywords.'packages_001.login.goToLogin'()
 
+WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
+
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
 
 WebUI.delay(5)
@@ -34,4 +36,8 @@ WebUI.enhancedClick(findTestObject('Manager_Objects/Select Approvals'))
 WebUI.enhancedClick(findTestObject('Manager_Objects/Select Pending Approval'))
 
 WebUI.enhancedClick(findTestObject('Manager_Objects/Approves Button'))
+
+WebUI.takeFullPageScreenshot('')
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
