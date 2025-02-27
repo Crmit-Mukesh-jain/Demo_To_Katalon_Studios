@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manager_Login</description>
+   <name>Manager_Login</name>
+   <tag>Manager</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5fcac4c-c506-43fa-8178-04f57b5312ee</testCaseGuid>
+</TestCaseEntity>
