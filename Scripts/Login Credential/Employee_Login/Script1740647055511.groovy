@@ -55,13 +55,15 @@ WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
 
-WebUI.takeFullPageScreenshot('')
+WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
 
-WebUI.delay(5)
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/Sort an Element'))
 
 WebUI.click(findTestObject('Emplyoee_Objects/All Leaves Section/Select the first Item'))
 
-WebUI.takeFullPageScreenshot('')
+WebUI.takeFullPageScreenshot(GlobalVariable.Username)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

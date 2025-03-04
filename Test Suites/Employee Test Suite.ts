@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a22bcf92-843f-403f-91dd-8137329d3e70</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login Credential/Employee_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
