@@ -29,6 +29,7 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.delay(5)
 
+
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
 
 WebUI.delay(5)
@@ -39,6 +40,8 @@ WebUI.enhancedClick(findTestObject('Manager_Objects/Select Approvals'))
 
 WebUI.enhancedClick(findTestObject('Manager_Objects/Select Pending Approval'))
 
+
+WebUI.delay(5)
 
 
 String Emp_Name = WebUI.getAttribute(findTestObject('Object Repository/Manager_Objects/Page_Employee Leave EL-4385/div_EmployeeChaithra K N'), 'value')
