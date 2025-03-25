@@ -66,11 +66,15 @@ WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), Infor
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Apply Button'))
 
-WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.delay(5)
 
@@ -82,9 +86,13 @@ WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/Sort an 
 
 WebUI.click(findTestObject('Emplyoee_Objects/All Leaves Section/Select the first Item'))
 
-WebUI.takeFullPageScreenshot(GlobalVariable.Username)
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+
+
 

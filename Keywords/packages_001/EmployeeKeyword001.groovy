@@ -19,7 +19,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 import internal.GlobalVariable
-
+import java.awt.TexturePaintContext.Int
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
@@ -54,16 +54,16 @@ class EmployeeKeyword001 {
 		webDriver.navigate().refresh()
 		KeywordUtil.markPassed("Refresh successfully")
 	}
-	 
+
 	@Keyword
 	def getTheDropdownValue(String leave_Type_Excel) {
 		TestObject dropdown = new TestObject()
 		dropdown.addProperty("xpath", ConditionType.EQUALS, "//button[contains(@class, 'slds-combobox__input')]")
 		WebUI.click(dropdown)
-		
+
 		// Wait for options to be visible
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Emplyoee_Objects/Apply Leave/Drop_Down_Value_Selection'), 5)
-		
+
 		// Select a dynamic option
 		String optionText = leave_Type_Excel  // Change this value as needed
 		TestObject dropdownOption = new TestObject()
@@ -71,5 +71,11 @@ class EmployeeKeyword001 {
 		WebUI.click(dropdownOption)
 	}
 
+	@Keyword
+	def setSummaryText(String Emp_Name, Number days, String leave_type, Date fromDate , Date toDate) {
+		String text = Emp_Name + 'is applied' + days+','+ leave_type + 'from' + fromDate + 'to' + toDate + 'is rejected because' + Emp_Name + 'have already taken those leaves'
 
+		TestObject dropdownOption = new TestObject()
+		dropdownOption.addProperty("xpath", ConditionType.EQUALS, "//span[text()='" + text + "']")
+	}
 }

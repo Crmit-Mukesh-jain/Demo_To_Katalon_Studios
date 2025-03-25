@@ -6,6 +6,33 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>26393a32-c4de-4669-82d1-88199fe08d3b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e22daca7-b9d2-4e8d-ac58-465c6c71a134</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Holidays List</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e22daca7-b9d2-4e8d-ac58-465c6c71a134</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Reason</value>
+      <variableId>53b8592e-762f-4822-9c57-a42d0ff962a1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e22daca7-b9d2-4e8d-ac58-465c6c71a134</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Inform</value>
+      <variableId>0dea1551-4298-4f6f-aeca-3cc3c094662e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e22daca7-b9d2-4e8d-ac58-465c6c71a134</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Leave_Type</value>
+      <variableId>89c46c6f-6750-4ad2-8d71-74a43e8d132e</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('Holidays List')</defaultValue>
       <description></description>

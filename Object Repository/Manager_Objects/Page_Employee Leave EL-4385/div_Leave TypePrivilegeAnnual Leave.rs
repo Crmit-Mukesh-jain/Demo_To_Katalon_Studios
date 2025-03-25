@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Leave TypePrivilegeAnnual Leave</name>
+   <tag></tag>
+   <elementGuidId>b849d56c-7e0c-4ade-966c-1ed45bfe55fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.slds-form-element.slds-form-element_readonly.slds-grow.slds-hint-parent.override--slds-form-element.hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[2]/div/div/dl[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Leave TypePrivilege/Annual Leave&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>44e2f510-cc36-4f87-a37b-aa32efe66823</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element hover</value>
+      <webElementGuid>539d0051-f2a2-4a1c-a42b-ee5712d9626c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>200:1764;a</value>
+      <webElementGuid>d0b2a9e2-b2e6-42da-843d-7729efdef225</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leave TypePrivilege/Annual Leave</value>
+      <webElementGuid>9f09873e-b3cd-49d5-8660-2c39ea89d117</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;153:1764;a&quot;)/div[@class=&quot;slds-form slds-form_stacked&quot;]/dl[@class=&quot;slds-grid slds-gutters_small full cols-2 forcePageBlockSectionRow&quot;]/div[@class=&quot;slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView&quot;]/div[@class=&quot;slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element hover&quot;]</value>
+      <webElementGuid>4493f0df-686e-4405-892a-78b1ae717d86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Leave TypePrivilege/Annual Leave' or . = 'Leave TypePrivilege/Annual Leave')]</value>
+      <webElementGuid>9b6f12eb-2bea-46f1-8927-650b04351c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='153:1764;a']/div/dl[2]/div/div</value>
+      <webElementGuid>51df463e-2d2b-4fed-8a1f-18347a8b823c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date'])[1]/following::div[2]</value>
+      <webElementGuid>8b323a6f-2eed-4bbd-a13a-f398bfdb0df5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date'])[1]/following::div[4]</value>
+      <webElementGuid>627b83ba-f39d-4068-8d86-4307939d68b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[2]/div/div/dl[2]/div/div</value>
+      <webElementGuid>5bf464ad-24ca-470e-86f9-9ff3bd00ecab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

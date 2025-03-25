@@ -23,7 +23,11 @@ WebUI.maximizeWindow()
 
 CustomKeywords.'packages_001.login.goToLogin'()
 
-WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
 
@@ -35,11 +39,35 @@ WebUI.enhancedClick(findTestObject('Manager_Objects/Select Approvals'))
 
 WebUI.enhancedClick(findTestObject('Manager_Objects/Select Pending Approval'))
 
-WebUI.enhancedClick(findTestObject('Manager_Objects/Approves Button'))
 
-WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+String Emp_Name = WebUI.getAttribute(findTestObject('Object Repository/Manager_Objects/Page_Employee Leave EL-4385/div_EmployeeChaithra K N'), 'value')
+String Duration = WebUI.getAttribute(findTestObject('Object Repository/Manager_Objects/Page_Employee Leave EL-4385/div_Duration(In days)3.00'), 'value')
+String S_Date = WebUI.getAttribute(findTestObject('Object Repository/Manager_Objects/Page_Employee Leave EL-4385/div_Start Date332025'), 'value')
+String  E_Date = WebUI.getAttribute(findTestObject('Object Repository/Manager_Objects/Page_Employee Leave EL-4385/div_End Date352025'), 'value')
+String L_Type = WebUI.getAttribute(findTestObject('Object Repository/Manager_Objects/Page_Employee Leave EL-4385/div_Leave TypePrivilegeAnnual Leave'), 'value')
 
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+System.out.println(Emp_Name, Duration, L_Type, S_Date, E_Date)
+
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('Manager_Objects/button_Reject'))
+
+WebUI.enhancedClick(findTestObject('Manager_Objects/textarea__Message'))
+
+CustomKeywords.'packages_001.EmployeeKeyword001.setSummaryText'(Emp_Name, Duration, L_Type, S_Date, E_Date)
+
+WebUI.setText(findTestObject('Manager_Objects/textarea__Message'), 'Rejected , Only Work')
+
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 
