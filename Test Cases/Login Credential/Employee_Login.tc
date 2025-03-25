@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Login</description>
    <name>Employee_Login</name>
-   <tag>Login</tag>
+   <tag>Login, GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7be9ced4-9897-4dcf-b431-dbd1308c8f16</testCaseGuid>
@@ -31,28 +31,28 @@
       <variableId>67d1aaa6-9398-4216-97aa-b6bb58ce8fa6</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Mar 11, 2025'</defaultValue>
+      <defaultValue>findTestData('Holidays List')</defaultValue>
       <description></description>
       <id>748fd19e-ba8f-4199-9fa0-9866f8029edd</id>
-      <masked>true</masked>
+      <masked>false</masked>
       <name>Start_Date</name>
    </variable>
    <variable>
-      <defaultValue>'Mar 11, 2025'</defaultValue>
+      <defaultValue>findTestData('Holidays List')</defaultValue>
       <description></description>
       <id>ac1dfeda-43d8-46c1-b667-5292f611a532</id>
-      <masked>true</masked>
+      <masked>false</masked>
       <name>End_Date</name>
    </variable>
    <variable>
-      <defaultValue>'Personal Work'</defaultValue>
+      <defaultValue>findTestData('Holidays List')</defaultValue>
       <description></description>
       <id>5053e691-2747-461c-bc40-6ca7a1be595e</id>
       <masked>true</masked>
       <name>Reason</name>
    </variable>
    <variable>
-      <defaultValue>'Manjunath Batti'</defaultValue>
+      <defaultValue>findTestData('Holidays List')</defaultValue>
       <description></description>
       <id>67d1aaa6-9398-4216-97aa-b6bb58ce8fa6</id>
       <masked>true</masked>
