@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>961f0975-92f1-4b81-a0e3-40a08ffed5bb</testSuiteGuid>
    <testCaseLink>
-      <guid>a22bcf92-843f-403f-91dd-8137329d3e70</guid>
+      <guid>b2ecf437-64eb-4ef3-9473-26a1dd097f5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Credential/Employee_Login</testCaseId>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_EmployeeChaithra K N</name>
+   <tag></tag>
+   <elementGuidId>ded4e6c4-5978-4379-9ed5-3584d266a3a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.slds-form-element.slds-form-element_readonly.slds-grow.slds-hint-parent.override--slds-form-element.hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Leave Name'])[1]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;EmployeeChaithra K N&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8f616e51-9480-4497-86a6-f8289b5237be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element hover</value>
+      <webElementGuid>34f4a6e0-39ae-4c1e-939e-6772b00721bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>56:1764;a</value>
+      <webElementGuid>32dd6990-8123-4c4f-944a-6a6acfacdea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EmployeeChaithra K N</value>
+      <webElementGuid>b1de7375-e60b-44d5-82c9-5f275d0123a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;4:1764;a&quot;)/div[@class=&quot;slds-form slds-form_stacked&quot;]/dl[@class=&quot;slds-grid slds-gutters_small full cols-2 forcePageBlockSectionRow&quot;]/div[@class=&quot;slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView&quot;]/div[@class=&quot;slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element hover&quot;]</value>
+      <webElementGuid>c6e47279-434e-488a-83f6-a3b06ba8d5a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='4:1764;a']/div/dl/div[2]/div</value>
+      <webElementGuid>b09c2324-5992-4feb-8394-8c838bc1322c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Leave Name'])[1]/following::div[2]</value>
+      <webElementGuid>207ed672-80ad-4025-8aab-27b62f7597e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//dl/div[2]/div</value>
+      <webElementGuid>400828d5-f41c-4012-b700-9d3d9863231d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

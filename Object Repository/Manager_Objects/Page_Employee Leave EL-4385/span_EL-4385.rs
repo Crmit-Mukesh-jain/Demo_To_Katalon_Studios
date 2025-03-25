@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_EL-4385</name>
+   <tag></tag>
+   <elementGuidId>3ae3aced-dd2c-49eb-b3e9-9182cc40988d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.test-id__field-value.slds-form-element__static.slds-grow.is-read-only</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'EL-4385' or . = 'EL-4385')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>span >> internal:has-text=&quot;EL-4385&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d96ac201-3ec2-4982-9617-2e3541e7d8fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>test-id__field-value slds-form-element__static slds-grow  is-read-only</value>
+      <webElementGuid>d8a8d704-181b-4a42-8715-5b9d8da43513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>17:1764;a</value>
+      <webElementGuid>14f0c486-17bb-45d3-907e-8d72c1771ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EL-4385</value>
+      <webElementGuid>bd254c47-c3c7-48e6-b84e-1c8353e04f46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;4:1764;a&quot;)/div[@class=&quot;slds-form slds-form_stacked&quot;]/dl[@class=&quot;slds-grid slds-gutters_small full cols-2 forcePageBlockSectionRow&quot;]/div[@class=&quot;slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView&quot;]/div[@class=&quot;slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element hover&quot;]/dd[@class=&quot;slds-form-element__control slds-grid itemBody&quot;]/span[@class=&quot;test-id__field-value slds-form-element__static slds-grow  is-read-only&quot;]</value>
+      <webElementGuid>6faaeac9-87c9-415f-ab3e-9e5534e3fc06</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'EL-4385' or . = 'EL-4385')]</value>
+      <webElementGuid>f744cd09-e8b4-46a9-abd4-395bf1048609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='4:1764;a']/div/dl/div/div/dd/span</value>
+      <webElementGuid>6dc32487-bd16-415a-81a7-ce567a42e863</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Leave Name'])[1]/following::span[1]</value>
+      <webElementGuid>709a7443-183d-44c4-8bd1-884e1ce8dfc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[2]/following::span[2]</value>
+      <webElementGuid>b4eaede3-a68c-443b-9d60-c49b84fc6554</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee'])[1]/preceding::span[2]</value>
+      <webElementGuid>cbf7752d-354d-4dbe-850a-3f6401639c25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//dd/span</value>
+      <webElementGuid>5027cb5b-93fc-43d7-a89f-7160e65af31c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

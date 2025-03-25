@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Start Date332025</name>
+   <tag></tag>
+   <elementGuidId>3e101f46-2e75-4d91-9ac7-5291f549bbb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.slds-form-element.slds-form-element_readonly.slds-grow.slds-hint-parent.override--slds-form-element.hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[2]/div/div/dl/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Start Date3/3/2025&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ad5e7c6b-f537-40f2-8720-e42db555b1a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element hover</value>
+      <webElementGuid>021f876f-16c0-43b5-b04e-768080df255c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>161:1764;a</value>
+      <webElementGuid>8302cf57-9ee0-4d0a-af6f-3853c29f8c57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Start Date3/3/2025</value>
+      <webElementGuid>8e79c5d8-dad7-47c0-af19-40370eb7ec16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;153:1764;a&quot;)/div[@class=&quot;slds-form slds-form_stacked&quot;]/dl[@class=&quot;slds-grid slds-gutters_small full cols-2 forcePageBlockSectionRow&quot;]/div[@class=&quot;slds-col slds-grid slds-has-flexi-truncate  full forcePageBlockItem forcePageBlockItemView&quot;]/div[@class=&quot;slds-form-element slds-form-element_readonly slds-grow slds-hint-parent override--slds-form-element hover&quot;]</value>
+      <webElementGuid>2ebd9046-117c-42cf-953c-b37a62e79b83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Start Date3/3/2025' or . = 'Start Date3/3/2025')]</value>
+      <webElementGuid>8c0292f8-c18b-4b21-bb7a-afaacb3acb0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='153:1764;a']/div/dl/div/div</value>
+      <webElementGuid>db754e3e-8ad8-45c5-8d4a-a044deb90a07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave Info'])[1]/following::div[4]</value>
+      <webElementGuid>176ba2af-28fd-47d3-afe3-4d6a77533398</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permanent'])[1]/following::div[6]</value>
+      <webElementGuid>03cab927-1d71-4a8d-b503-e0e5b12aecef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date'])[1]/preceding::div[1]</value>
+      <webElementGuid>64a78563-3686-437c-8e1d-3975b2f74567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[2]/div/div/dl/div/div</value>
+      <webElementGuid>4ba0a50d-9eb0-4f71-88ae-7324fdd96b22</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
