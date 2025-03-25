@@ -7,8 +7,8 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>9d26cf1e-e0a4-4c0c-875e-464403ed13d3</dataFileGUID>
-   <dataSourceUrl>Holidays_List.csv</dataSourceUrl>
-   <driver>CSV</driver>
+   <dataSourceUrl>Holidays_List.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
