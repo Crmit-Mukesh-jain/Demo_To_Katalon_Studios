@@ -23,12 +23,9 @@ WebUI.maximizeWindow()
 
 CustomKeywords.'packages_001.login.goToLogin'()
 
-WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
-
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/My_Leaves'))
 
-WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Leave_Balance_Selection'))
-
+//WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Leave_Balance_Selection'))
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'))
 
 // Define the Date Format
@@ -53,39 +50,29 @@ WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'
 
 WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), futureDate)
 
-// Load test data from an Excel file
-TestData dropdownData = findTestData('Data Files/')
+CustomKeywords.'packages_001.EmployeeKeyword001.getTheDropdownValue'(Leave_Type)
 
-// Get the value from the first row of the 'DropdownValues' column
-String dropdownValue = dropdownData.getValue('DropdownValues', 1)
-
-WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave_Type_Dropdown'))
-
-WebUI.selectOptionByLabel(findTestObject('Emplyoee_Objects/Apply Leave/Drop_Down_Value_Selection'), dropdownValue, false)
-
-//
-//WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'), Start_Date)
-//
-//WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), End_Date)
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), 'dasd')
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), Reason)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), 'sda')
-
-WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
-
-WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Apply Button'))
-
-WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Confirm Button'))
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), Inform)
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
+WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Apply Button'))
+
+WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Confirm Button'))
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/Sort an Element'))
 
