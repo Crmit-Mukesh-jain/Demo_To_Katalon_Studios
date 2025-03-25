@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>961f0975-92f1-4b81-a0e3-40a08ffed5bb</testSuiteGuid>
    <testCaseLink>
-      <guid>a22bcf92-843f-403f-91dd-8137329d3e70</guid>
+      <guid>b2ecf437-64eb-4ef3-9473-26a1dd097f5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Credential/Employee_Login</testCaseId>
@@ -21,25 +21,19 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>748fd19e-ba8f-4199-9fa0-9866f8029edd</variableId>
+         <variableId>53b8592e-762f-4822-9c57-a42d0ff962a1</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ac1dfeda-43d8-46c1-b667-5292f611a532</variableId>
+         <variableId>0dea1551-4298-4f6f-aeca-3cc3c094662e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5053e691-2747-461c-bc40-6ca7a1be595e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>67d1aaa6-9398-4216-97aa-b6bb58ce8fa6</variableId>
+         <variableId>89c46c6f-6750-4ad2-8d71-74a43e8d132e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

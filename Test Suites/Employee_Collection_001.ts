@@ -16,15 +16,15 @@
                <entry>
                   <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;id&quot;: 462,
+  &quot;id&quot;: 476,
   &quot;osDisplayName&quot;: &quot;Windows&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;135&quot;,
+  &quot;browserVersion&quot;: &quot;136&quot;,
   &quot;os&quot;: &quot;windows&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
-  &quot;usingTunnel&quot;: true,
+  &quot;usingTunnel&quot;: false,
   &quot;isHighAvailableDevice&quot;: false
 }</value>
                </entry>

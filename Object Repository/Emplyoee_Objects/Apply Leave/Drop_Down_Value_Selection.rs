@@ -6,12 +6,12 @@
    <elementGuidId>690f8da7-1d70-4320-a63f-9f8bd5bdb5bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[(text() = '* Leave Type*Leave TypeNoneCasual LeaveCelebration LeaveMaternity LeavePaternity LeavePrivilege/Annual LeaveSick LeaveRestricted HolidayLong LeaveAnnual LeaveLeave TypeField is mandatory.' or . = '* Leave Type*Leave TypeNoneCasual LeaveCelebration LeaveMaternity LeavePaternity LeavePrivilege/Annual LeaveSick LeaveRestricted HolidayLong LeaveAnnual LeaveLeave TypeField is mandatory.')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.slds-form-element.grid__items.slds-p-bottom_medium</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Format: Dec 31, 2024'])[2]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

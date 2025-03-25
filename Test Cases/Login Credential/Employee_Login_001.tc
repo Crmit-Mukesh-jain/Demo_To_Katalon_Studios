@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Employee001</description>
-   <name>Employee_Login</name>
+   <name>Employee_Login_001</name>
    <tag>GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
