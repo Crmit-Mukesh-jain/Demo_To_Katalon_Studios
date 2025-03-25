@@ -6,12 +6,12 @@
    <UUID>762bcdb0-f10e-4562-952f-f1192659f917</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.0.0</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.0.0</modifiedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.1.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\mukesh.jain_crmit\Katalon Studio\Community_Portal_Katalon_Studios\Community_Portal_Katalon_Studios.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\mukesh.jain_crmit\git\Demo_To_Katalon_Studios\Community_Portal_Katalon_Studios.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

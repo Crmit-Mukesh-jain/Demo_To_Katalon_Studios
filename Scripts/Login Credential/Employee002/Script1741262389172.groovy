@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'packages_001.login.goToLogin'()
+CustomKeywords.'packages_001.Employee_002.goToLogin02'()
 
 WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
 
@@ -31,49 +31,19 @@ WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Leave_Balance_Selection'))
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'))
 
-// Define the Date Format
-SimpleDateFormat sdf = new SimpleDateFormat('MM/dd/yyyy')
-
-// Get Current Date
-Calendar calendar = Calendar.getInstance()
-
-String currentDate = sdf.format(calendar.getTime())
-
-// Get Date Two Days Ahead
-calendar.add(Calendar.DATE, 2)
-
-String futureDate = sdf.format(calendar.getTime())
-
-// Select Date Picker and Input Values
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'), currentDate)
-
-WebUI.delay(2)
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'), Start_Date)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), futureDate)
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), End_Date)
 
-// Load test data from an Excel file
-TestData dropdownData = findTestData('Data Files/')
-
-// Get the value from the first row of the 'DropdownValues' column
-String dropdownValue = dropdownData.getValue('DropdownValues', 1)
-
-WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave_Type_Dropdown'))
-
-WebUI.selectOptionByLabel(findTestObject('Emplyoee_Objects/Apply Leave/Drop_Down_Value_Selection'), dropdownValue, false)
-
-//
-//WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'), Start_Date)
-//
-//WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), End_Date)
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), 'dasd')
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), Reason)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), 'sda')
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), Inform)
 
 WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
 
@@ -96,4 +66,12 @@ WebUI.takeFullPageScreenshot(GlobalVariable.Username)
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+
+delay(with).5(and).take(a).screenshot
+
+// Wait for 5 seconds
+WebUI.delay(5)
+
+// Take a screenshot and save it with a default name
+WebUI.takeScreenshot()
 
