@@ -23,3 +23,4 @@ build
 .svn/
 .cache/
 Data Files/*.csv
+Data Files/*.xlsx
