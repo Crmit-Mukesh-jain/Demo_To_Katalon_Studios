@@ -6,18 +6,6 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7be9ced4-9897-4dcf-b431-dbd1308c8f16</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5053e691-2747-461c-bc40-6ca7a1be595e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>67d1aaa6-9398-4216-97aa-b6bb58ce8fa6</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Holidays List')</defaultValue>
       <description></description>
