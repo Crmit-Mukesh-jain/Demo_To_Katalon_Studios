@@ -18,8 +18,6 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
-import internal.GlobalVariable
-import java.awt.TexturePaintContext.Int
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
@@ -40,7 +38,6 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testdata.ExcelData
 
 class EmployeeKeyword001 {
