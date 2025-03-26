@@ -54,7 +54,11 @@ WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'
 
 WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), futureDate)
 
+WebUI.delay(5)
+
 CustomKeywords.'packages_001.EmployeeKeyword001.getTheDropdownValue'(Leave_Type)
+
+WebUI.delay(10)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'))
 
