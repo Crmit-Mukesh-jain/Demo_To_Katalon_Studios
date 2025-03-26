@@ -7,9 +7,15 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>9d26cf1e-e0a4-4c0c-875e-464403ed13d3</dataFileGUID>
-   <dataSourceUrl>../../Downloads/List of holidays on December-3.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/EDEN/Holiday_List.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>
