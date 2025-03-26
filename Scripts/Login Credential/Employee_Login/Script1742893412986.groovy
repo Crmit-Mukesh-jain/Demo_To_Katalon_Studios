@@ -27,7 +27,11 @@ WebUI.maximizeWindow()
 
 CustomKeywords.'packages_001.login.goToLogin'()
 
+WebUI.delay(5)
+
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/My_Leaves'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
 
 //WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Leave_Balance_Selection'))
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Start Date Leave'))
@@ -58,19 +62,21 @@ WebUI.delay(5)
 
 CustomKeywords.'packages_001.EmployeeKeyword001.getTheDropdownValue'(findTestData('EDEN/QuickEntryData').getValue(3, 1))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), Reason)
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Leave Reason'), findTestData('EDEN/QuickEntryData').getValue(
+        1, 1))
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'))
 
-WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), Inform)
+WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/Infrom Leave'), findTestData('EDEN/QuickEntryData').getValue(
+        2, 1))
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot(FailureHandling.STOP_ON_FAILURE)
+WebUI.takeFullPageScreenshotAsCheckpoint(GlobalVariable.Username)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Apply Button'))
 
@@ -90,7 +96,7 @@ WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/Sort an 
 
 WebUI.click(findTestObject('Emplyoee_Objects/All Leaves Section/Select the first Item'))
 
-WebUI.takeFullPageScreenshot(GlobalVariable.Username)
+WebUI.takeFullPageScreenshotAsCheckpoint(findTestData('EDEN/Checkpoints').getValue(1, 1))
 
 WebUI.delay(5)
 
