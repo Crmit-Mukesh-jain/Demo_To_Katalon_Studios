@@ -34,21 +34,21 @@
       <variableId>89c46c6f-6750-4ad2-8d71-74a43e8d132e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Holidays List')</defaultValue>
+      <defaultValue>'Personal Work'</defaultValue>
       <description></description>
       <id>53b8592e-762f-4822-9c57-a42d0ff962a1</id>
       <masked>false</masked>
       <name>Reason</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Holidays List')</defaultValue>
+      <defaultValue>'Manjunath Batti'</defaultValue>
       <description></description>
       <id>0dea1551-4298-4f6f-aeca-3cc3c094662e</id>
       <masked>false</masked>
       <name>Inform</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Holidays List')</defaultValue>
+      <defaultValue>'Paternity Leave'</defaultValue>
       <description></description>
       <id>89c46c6f-6750-4ad2-8d71-74a43e8d132e</id>
       <masked>false</masked>
