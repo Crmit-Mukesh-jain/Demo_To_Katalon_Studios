@@ -8,47 +8,47 @@
    <testCaseGuid>26393a32-c4de-4669-82d1-88199fe08d3b</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>032b1aa6-9492-451e-8282-a3b58a28012d</id>
+      <id>4b9429d3-fe59-4069-a4be-dd62b86fdb59</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/EDEN/New Test Data</testDataId>
+      <testDataId>Data Files/EDEN/QuickEntryData</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>032b1aa6-9492-451e-8282-a3b58a28012d</testDataLinkId>
+      <testDataLinkId>4b9429d3-fe59-4069-a4be-dd62b86fdb59</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Reason</value>
       <variableId>53b8592e-762f-4822-9c57-a42d0ff962a1</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>032b1aa6-9492-451e-8282-a3b58a28012d</testDataLinkId>
+      <testDataLinkId>4b9429d3-fe59-4069-a4be-dd62b86fdb59</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Inform</value>
       <variableId>0dea1551-4298-4f6f-aeca-3cc3c094662e</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>032b1aa6-9492-451e-8282-a3b58a28012d</testDataLinkId>
+      <testDataLinkId>4b9429d3-fe59-4069-a4be-dd62b86fdb59</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Leave_Type</value>
       <variableId>89c46c6f-6750-4ad2-8d71-74a43e8d132e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('EDEN/New Test Data')</defaultValue>
+      <defaultValue>findTestData('EDEN/QuickEntryData')</defaultValue>
       <description></description>
       <id>53b8592e-762f-4822-9c57-a42d0ff962a1</id>
       <masked>false</masked>
       <name>Reason</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('EDEN/New Test Data')</defaultValue>
+      <defaultValue>findTestData('EDEN/QuickEntryData')</defaultValue>
       <description></description>
       <id>0dea1551-4298-4f6f-aeca-3cc3c094662e</id>
       <masked>false</masked>
       <name>Inform</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('EDEN/New Test Data')</defaultValue>
+      <defaultValue>findTestData('EDEN/QuickEntryData')</defaultValue>
       <description></description>
       <id>89c46c6f-6750-4ad2-8d71-74a43e8d132e</id>
       <masked>false</masked>
