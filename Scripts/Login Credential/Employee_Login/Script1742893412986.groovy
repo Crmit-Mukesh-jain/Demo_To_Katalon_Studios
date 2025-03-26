@@ -76,7 +76,11 @@ WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/Apply Leave/Confirm Button'))
 
+WebUI.delay(5)
+
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/All Leaves Tab'))
+
+WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/Sort an Element'))
 
 WebUI.enhancedClick(findTestObject('Emplyoee_Objects/All Leaves Section/Sort an Element'))
 
