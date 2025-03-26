@@ -56,7 +56,7 @@ WebUI.setText(findTestObject('Emplyoee_Objects/Apply Leave/End Date Leave'), fut
 
 WebUI.delay(5)
 
-CustomKeywords.'packages_001.EmployeeKeyword001.getTheDropdownValue'(Leave_Type)
+CustomKeywords.'packages_001.EmployeeKeyword001.getTheDropdownValue'(findTestData('EDEN/QuickEntryData').getValue(3, 1))
 
 WebUI.delay(10)
 
